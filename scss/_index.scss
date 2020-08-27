@@ -1,0 +1,82 @@
+
+.banner {
+  background-image: url(https://i.imgur.com/IjWi43F.png);
+  height: 870px;
+  background-position: center;
+  background-repeat: no-repeat;
+  h2{
+    font-size: 40px;
+  }
+  p{
+    font-size: 24px;
+  }
+  .btn{
+    border: 2px white solid;
+    border-radius: 30px;
+    width: 350px;
+    height: 60px;
+    font-size: 26px;
+  }
+}
+.footer{
+  background-image: url(https://i.imgur.com/3aGIBJB.png);
+  background-size: cover;
+  background-position: center;
+  padding: 310px 0 110px 0;
+  h2{
+    font-weight: 600;
+    font-size: 32px;
+  }
+  input{
+    border: 2px solid #916000;
+  }
+  button{
+    background-color: #916000;
+    color: white;
+    margin-left: -4px;
+    border: 1px solid #916000;
+  }
+}
+.card{
+  border: none;
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  a{
+    font-weight: bold;
+  }
+  .btn{
+    border: 2px black solid;
+    border-radius: 30px;
+    width: 350px;
+    height: 60px;
+  }
+  .decoration{
+    text-decoration: line-through;
+  }
+  h2{
+    font-size: 24px;
+  }
+  h4{
+    font-size: 20px;
+  }
+}
+.blackshadow{
+  filter: contrast(40%);
+}
+.out{
+  position: absolute;
+  
+}
+.bar-three{
+  top: -4px;
+  left: 12px;
+  color: white;
+  width: 17px;
+  height: 15px;
+  font-size: 12px;
+  border-radius: 40%;
+  text-align: center;
+}
